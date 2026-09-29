@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Suco de laranja",
+    "description": "Suco natural, servido gelado.",
+    "category": "Café da manhã",
+    "mealTime": "9h30",
+    "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Pão com manteiga",
+    "description": "Pão francês quentinho com manteiga.",
+    "category": "Café da manhã",
+    "mealTime": "9h30",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Bolo de fubá",
+    "description": "Bolo caseiro, macio e fofinho.",
+    "category": "Café da manhã",
+    "mealTime": "9h30",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Arroz e feijão",
+    "description": "Arroz branco soltinho e feijão temperado.",
+    "category": "Almoço",
+    "mealTime": "12h15",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Filé de frango",
+    "description": "Peito de frango grelhado e bem temperado.",
+    "category": "Almoço",
+    "mealTime": "12h15",
+    "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Salada de alface",
+    "description": "Alface e tomate, temperados com azeite.",
+    "category": "Almoço",
+    "mealTime": "12h15",
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Batata frita",
+    "description": "Batata em palito, frita na hora.",
+    "category": "Almoço",
+    "mealTime": "12h15",
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80"
+  }
+]
