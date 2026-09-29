@@ -1,2 +1,14 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Marhey:wght@300..700&display=swap');
+
+@theme {
+    --font-marhey: 'Marhey', sans-serif;
+    --font-fira-code: 'Fira Code', monospace;
+
+    --color-brown-stellar-light: hsl(40, 100%, 93%);
+    --color-gray-linen: hsl(50, 27%, 87%);
+    --color-brown-spanish: hsl(39, 27%, 77%);
+    --color-red-mahogany: hsl(359, 55%, 53%);
+    --color-brown-coffee: hsl(5, 31%, 34%)
+}
