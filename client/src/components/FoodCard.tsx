@@ -1,5 +1,3 @@
-import foods from '../mocks/foods.json'
-
 import type Food from "../types/Food";
 
 interface FoodCardProps {
@@ -8,8 +6,8 @@ interface FoodCardProps {
 
 export default function FoodCard({ food }: FoodCardProps) {
     return (
-        {foods.map((food) => (
-            <h1 key={food.id}>{food.name}</h1>
-        ))}
+        <div>
+            <h1>{food.name}</h1>
+        </div>
     )
 }

@@ -1,8 +1,10 @@
+import logo from '../assets/ifsp-cafeteria.png'
+
 export default function Header() {
     return (
         <header className="flex justify-around">
             <div>
-                <img src="/assets/ifsp-cafeteira.png" alt="IFSP Cafeteria logo" />
+                <img src={logo} alt="IFSP Cafeteria logo" className='w-7' />
             </div>
 
             <nav>
