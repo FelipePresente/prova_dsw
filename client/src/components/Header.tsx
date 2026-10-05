@@ -1,15 +1,18 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/ifsp-cafeteria.png'
 
 export default function Header() {
     return (
-        <header className="flex justify-around">
+        <header className="flex justify-around items-center bg-brown-spanish">
             <div>
-                <img src={logo} alt="IFSP Cafeteria logo" className='w-7' />
+                <Link to='/'>
+                    <img src={logo} alt="IFSP Cafeteria logo" className='h-17' />
+                </Link>
             </div>
 
-            <nav>
-                <h2>Home</h2>
-                <h2>Menu</h2>
+            <nav className='flex flex-row gap-7'>
+                <Link to='/home'>Home</Link>
+                <Link to='/menu'>Menu</Link>
             </nav>
         </header>
     )
