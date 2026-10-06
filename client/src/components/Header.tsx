@@ -4,7 +4,7 @@ import logo from '../assets/ifsp-cafeteria.png'
 export default function Header() {
     return (
         <header className="bg-brown-spanish text-brown-stellar-light font-fira-code p-3">
-            <div className='mx-auto max-w-7xl flex justify-between items-center px-2'>
+            <div className='mx-auto max-w-7xl flex justify-around items-center p-2'>
                 <div>
                     <Link to='/'>
                         <img src={logo} alt="IFSP Cafeteria logo" className='h-13' />

@@ -40,7 +40,7 @@
       "name": "Hummus and Pita",
       "description": "Creamy garlic hummus served with warm pita bread triangles.",
       "category": "snack",
-      "image": "hummus-and-pita.jpg"
+      "image": "/hummus-and-pita.jpg"
     },
     {
       "id": 7,
