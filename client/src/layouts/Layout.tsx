@@ -6,7 +6,7 @@ export default function Layout() {
         <>
             <Header />
             
-            <main className='text-brown-stellar-light bg-brown-coffee min-h-screen flex justify-center items-center gap-3'>
+            <main className='font-fira-code text-brown-stellar-light bg-brown-coffee min-h-screen flex justify-center items-center flex-col p-3'>
                 <Outlet />
             </main>
         </>

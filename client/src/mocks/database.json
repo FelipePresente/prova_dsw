@@ -1,0 +1,60 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Classic Pancakes",
+      "description": "Three fluffy buttermilk pancakes served with butter and maple syrup.",
+      "category": "breakfast",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Avocado Toast",
+      "description": "Mashed avocado on toasted sourdough bread, topped with chili flakes and a poached egg.",
+      "category": "breakfast",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Grilled Chicken Caesar Salad",
+      "description": "Crisp romaine lettuce, grilled chicken breast, parmesan cheese, and croutons with Caesar dressing.",
+      "category": "lunch",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Margherita Pizza",
+      "description": "Wood-fired pizza topped with fresh tomato sauce, mozzarella cheese, and basil leaves.",
+      "category": "lunch",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Trail Mix",
+      "description": "A healthy blend of almonds, walnuts, pumpkin seeds, and dried cranberries.",
+      "category": "snack",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Hummus and Pita",
+      "description": "Creamy garlic hummus served with warm pita bread triangles.",
+      "category": "snack",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "Spaghetti Bolognese",
+      "description": "Traditional Italian pasta with a rich slow-cooked beef and tomato ragù.",
+      "category": "dinner",
+      "image": ""
+    },
+    {
+      "id": 8,
+      "name": "Grilled Salmon",
+      "description": "Fresh Atlantic salmon fillet, lightly seasoned and grilled, served with steamed asparagus.",
+      "category": "dinner",
+      "image": ""
+    }
+  ]
+}

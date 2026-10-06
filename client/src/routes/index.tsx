@@ -9,7 +9,6 @@ export default function AppRoutes() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
         </Route>
       </Routes>

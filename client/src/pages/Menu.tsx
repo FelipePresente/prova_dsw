@@ -1,15 +1,18 @@
-import FoodCard from "../components/FoodCard";
-
-import foods from '../mocks/foods.json'
+import FoodCard from "../components/FoodCard"
+import useFoods from "../hooks/useFoods"
 
 export default function Menu() {
+  const foods = useFoods()
+  
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-gray-800">Menu</h1>
+    <>
+      <h1 className="text-3xl font-bold">Menu</h1>
 
-      {foods.map((food) => (
-        <FoodCard key={food.id} food={food}/>
-      ))}
-    </main>
+      <div className="">
+        {foods.map((food) => (
+          <FoodCard key={food.id} food={food}/>
+        ))}
+      </div>
+    </>
   )
 }
