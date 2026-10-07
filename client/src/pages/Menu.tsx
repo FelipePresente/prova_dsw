@@ -1,6 +1,6 @@
 import CardsByCategory from "../components/CardsByCategory"
 import useFoodsByCategory from "../hooks/useFoods"
-import type { FoodCategory } from "../types/Food" // Importamos o tipo para usar na conversão
+import type { FoodCategory } from "../types/Food"
 
 export default function Menu() {
     const today = new Date()
@@ -25,7 +25,7 @@ export default function Menu() {
                 {Object.entries(foods).map(([category, food]) => (
                     <CardsByCategory
                         key={category}
-                        category={category as FoodCategory} // <-- Ajustado com "as FoodCategory"
+                        category={category as FoodCategory}
                         foods={food}
                     />
                 ))}
