@@ -1,5 +1,5 @@
 import FoodCard from "../components/FoodCard"
-import useFoods from "../hooks/useFoods"
+import { useFoods } from "../hooks/useFoods"
 import type Food from "../types/Food"
 
 export default function Menu() {

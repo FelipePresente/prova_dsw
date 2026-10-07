@@ -1,4 +1,4 @@
-import FoodCard from "../components/FoodCard"
+import CardsByCategory from "../components/CardsByCategory"
 import useFoodsByCategory from "../hooks/useFoods"
 
 export default function Menu() {
@@ -20,17 +20,15 @@ export default function Menu() {
         <section>
             <div className="my-7">
                 <h1 className="text-7xl font-bold font-marhey text-red-mahogany">Menu</h1>
+
                 <p>{formatedDate}</p>
             </div>
 
-
-
-            <div className="grid grid-cols-2 gap-5 my-2">
-                {foods.breakfast.map((food) => (
-                    <FoodCard key={food.id} food={food} />
+            <div className="my-7 flex flex-col gap-5">
+                {Object.entries(foods).map(([category, food]) => (
+                    <CardsByCategory key={category} category={category} foods={food}/>
                 ))}
             </div>
-
         </section>
     )
 }

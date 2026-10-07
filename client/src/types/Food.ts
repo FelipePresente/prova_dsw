@@ -1,11 +1,11 @@
-export const FoodCategory = {
+export const FoodCategoryValues = {
     Breakfast: 'breakfast',
     Lunch: 'lunch',
     Snack: 'snack',
     Dinner: 'dinner'
 } as const
 
-export type FoodCategory = typeof FoodCategory[keyof typeof FoodCategory]
+export type FoodCategory = typeof FoodCategoryValues[keyof typeof FoodCategoryValues]
 
 export default interface Food {
     id: number;

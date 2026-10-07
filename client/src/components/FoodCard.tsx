@@ -1,6 +1,6 @@
 import type Food from "../types/Food";
 
-interface FoodCardProps {
+export interface FoodCardProps {
     food: Food;
 }
 
